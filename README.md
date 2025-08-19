@@ -25,4 +25,18 @@ Here are the projects included in this repo:
 ## 🛠️ Tech Stack
 - **HTML5** → Structure  
 - **CSS3** → Styling  
-- **JavaScript (ES6+)** → Logic & Functionality 
+- **JavaScript (ES6+)** → Logic & Functionality  
+
+---
+
+## 🚀 Getting Started
+To run these projects locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/AfaqAliChishti/beginner-javascript-projects.git
+
+# Open any project folder
+cd project-folder
+
+# Open index.html in your browser
