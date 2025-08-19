@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    background-color: #222831;
+    width: 45vw;
+    aspect-ratio: 1/0.5;
+    display: grid;
+    grid-template-rows: 50% 50% ;
+    grid-template-columns: 50% 5% 22.5% 22.5%;
+}
+#hours{
+    grid-column: 1;
+    grid-row: 1/2 span;
+    font-size: 18cqw;
+    color: #FF6A00;
+}
+#blink{
+    grid-column: 2;
+    grid-row: 1/ span 2;
+    font-size: 12cqw;
+    animation: blink 1s ease-in-out infinite;
+}
+@keyframes blink{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }  
+}
+#minutes{
+    grid-column: 3/4 span;
+    grid-row: 1;
+    font-size: 7cqw;
+    align-items: end;
+    color: white;
+}
+#am{
+    grid-column: 3;
+    grid-row: 2;
+    align-items: start;
+    justify-content: end;
+    font-size: 3cqw;
+    padding-right: 5%;
+    padding-top: 14%;
+    color: #ffd000;
+}
+#second{
+    grid-column: 4;
+    grid-row: 2;
+    align-items: start;
+    justify-content: start;
+    font-size: 3cqw;
+    padding-left: 5%;
+    padding-top: 14%;
+    color: white;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+
