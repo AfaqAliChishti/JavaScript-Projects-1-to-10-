@@ -30,7 +30,6 @@ input{
     outline: none;
     text-align: right;
     font-size: clamp(14px, 3rem, 40px);
-
 }
 #container div{
     width: 100%;
@@ -51,19 +50,15 @@ button{
 }
 .color{
     background-color: #D32F2F;
-    color: #ffffff;
 }
 .color:hover{
     background-color: #F44336;
-    color: #ffffff;
 }
 button:hover{
     background-color: #5c5c5c;
-    color: white;
 }
 .clr{
     background-color: #FF9500;
-    color: #ffffff;
 }
 .clr:hover{
     background-color: #ffb84d;
