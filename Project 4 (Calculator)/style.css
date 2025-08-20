@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C2C2C;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    background-color: #1E1E1E;
+    width: clamp(300px, 20vw, 700px);
+    aspect-ratio: 1/1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 21px;
+}
+input{
+    background-color: #F5F5F5;
+    width: 90%;
+    height: 15%;
+    margin: 5% 0%;
+    padding: 0px 5px;
+    border-radius: 12px;
+    outline: none;
+    text-align: right;
+    font-size: clamp(14px, 3rem, 40px);
+
+}
+#container div{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+button{
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-color: #3C3C3C;
+    color: #ffffff;
+    border-radius: 20%;
+    font-size: 1.5rem;
+}
+.color{
+    background-color: #D32F2F;
+    color: #ffffff;
+}
+.color:hover{
+    background-color: #F44336;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #5c5c5c;
+    color: white;
+}
+.clr{
+    background-color: #FF9500;
+    color: #ffffff;
+}
+.clr:hover{
+    background-color: #ffb84d;
+}
+#equal{
+background-color: #4CAF50;
+}
+#equal:hover{
+background-color: #66BB6A;
+}
