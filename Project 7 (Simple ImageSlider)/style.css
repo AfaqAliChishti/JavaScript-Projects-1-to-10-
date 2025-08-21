@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C2C2C;
+}
+h2{
+    color: white;
+    font-family: sans-serif;
+    margin: 2% 0%;
+    text-align: center;
+    font-size: 2rem;
+}
+.container{
+    width: calc(vw-scrolbar);
+    aspect-ratio: 1/0.35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    width: 7%;
+}
+.frame{
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    transition: transform 2s ease-in-out;
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.dots{
+    width: calc(100vw-scrolbar);
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+.dot{
+    height: 14px;
+    width: 14px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
