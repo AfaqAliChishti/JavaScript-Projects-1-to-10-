@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissor Game</title>
+</head>
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+    <!-- Adding images with name -->
+    <div id="gameoption">
+        <div class="option" id="rock"><img class="img" src="Images/Rock.png" alt="">
+            <p>Rock</p>
+        </div>
+        <div class="option" id="Paper"><img class="img" src="Images/Paper.png" alt="">
+            <p>Paper</p>
+        </div>
+        <div class="option" id="Scissor"><img class="img" src="Images/Scissor.png" alt="">
+            <p>Scissor</p>
+        </div>
+    </div>
+    <!-- your and computer scores and choise -->
+    <div id="score">
+        <div class="scores">
+            <p>You</p>
+            <p id="Uchose"></p>
+            <p id="Uscore">0</p>
+        </div>
+        <div class="scores">
+            <p>Computer</p>
+            <p id="Chose"></p>
+            <p id="Cscore">0</p>
+        </div>
+    </div>
+    <!-- result win or lose -->
+    <h2 id="result">You win</h2>
+    <script src="script.js"></script>
+</body>
+
+</html>
